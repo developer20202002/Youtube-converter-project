@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YouTube audio downloader</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>This is a script for downloading audio from YouTube</h1>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <form>
+            <div class="form-group m-5">
+                <label class="btn btn-secondary btn-file m-0">
+                    Browse <input type="file" class="form-control-file" style="display: none" id="file-path">
+                </label>
+                <button type="button" class="btn btn-secondary" id="send-file">Upload</button>
+            </div>
+        </form>
+    </div>
+
+    <script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
