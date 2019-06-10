@@ -6,7 +6,7 @@
 
 1. The script runs in node environment, therfore make sure to install it locally before compiling.
 
-2. The app requires node modules, to install them move to server directory and type in console 
+2. This app requires node modules, to install them move to server directory and type in console 
 
    `npm install`
 
